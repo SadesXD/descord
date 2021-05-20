@@ -1,0 +1,31 @@
+{
+  "name": "descord",
+  "version": "1.0.0",
+  "description": "discord.js cli for help you to generate discord.js bot project quickly",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "descord": "./src/index.js"
+  },
+  "keywords": [
+    "discord-cli",
+    "discord.js",
+    "nodejs-cli",
+    "cli",
+    "discord.js-cli",
+    "djs-cli",
+    "descord"
+  ],
+  "author": "SadesXD",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.0.0",
+    "yargs": "^17.0.1"
+  },
+  "repository": {
+    "url": "https://github.com/SadesXD/descord"
+  }
+}
